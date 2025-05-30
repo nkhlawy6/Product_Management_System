@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color:white;
+    --text-color: black;
+}
+.body-dark-mode{
+    background-color:#111;
+    color:#eee;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'system-ui';
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .head{
+    position: relative;
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    background-color: #9a9ae3;
+    padding: 10px;
+    border-radius: 3px;
+}
+.head .i-dark-mode{
+    width: 20px;
+    position: absolute;
+    right: 31px;
+    bottom: 25px;
+}
